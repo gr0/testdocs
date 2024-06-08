@@ -1,2 +1,3 @@
-# testdocs
-Testdocs
+# Example docs
+
+Some example docs
