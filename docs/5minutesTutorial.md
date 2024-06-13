@@ -1,4 +1,4 @@
-= Integration in 5 minutes: Basic information
+# Integration in 5 minutes: Basic information
 
 <!-- theme: warning -->
 > The purpose of this document is to describe the general principle of integration with Authologic.
@@ -36,7 +36,7 @@ Username and *API key* should be used as data. By using the `curl` tool we use t
 title: "Create Conversation"
 highlightLines: [[5,13]]
 -->
-```
+```shell
 curl -X POST -u my_login "https://sandbox.authologic.com/api/conversations" \
 -H "Accept: application/vnd.authologic.v1.1+json" \
 -H "Content-Type: application/vnd.authologic.v1.1+json" \
