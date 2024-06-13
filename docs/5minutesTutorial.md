@@ -54,3 +54,30 @@ curl -X POST -u my_login "https://sandbox.authologic.com/api/conversations" \
         }
     }'
 ```
+```java
+import com.authologic.client.api.*;
+
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        Client client = ClientBuilder.builder("username", "password").sandbox().build();
+
+        Conversation conversation = client.execute(
+            Requests.
+                createConversation().
+                strategy("public:sandbox").
+                callbackUrl("some_callback_url").
+                addProduct(
+                    new IdentityProductQueryBuilder(
+                        Arrays.asList(
+                            IdentityQueryField.PERSON_NAME_FIRSTNAME,
+                            IdentityQueryField.PERSON_NAME_LASTNAME
+                        )
+                    ))
+        ).get();
+        
+        System.out.println(conversation.getUrl());
+    }
+}
+```
