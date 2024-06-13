@@ -15,10 +15,7 @@
     "json_schema": {
       "rootDir": "models",
       "include": ["**"]
-    },
-    "exclude": [
-        ".gitignore"
-    ]
+    }
   }
 }
 
