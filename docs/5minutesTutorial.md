@@ -93,8 +93,7 @@ Therefore, in the query, we used the appropriate `Accept` and `Content-Type` hea
 able to choose the appropriate format and API version. We then passed the query content in JSON format using the following:
 userKey:: specifies the user you want to check. Authologic remembers this field, returns its value, but Authologic doesn't use the value of this field. Place there the user ID which is used in your system, it will make it easier for you to associate the conversation with the user. You can also ignore this fields and the Authologic will generate it for you.
 
-- `returnUrl` - address to which the user will be redirected by Authologic after verifying the identity. It may contain the
-fragment: `{conversationId}` - if it exists, it will be replaced with the conversation ID.
+- `returnUrl` - address to which the user will be redirected by Authologic after verifying the identity. It may contain the fragment: `{conversationId}` - if it exists, it will be replaced with the conversation ID.
 - `callbackUrl` - after process is completed, on this url we will send you user information or information that process has failed.
 - `strategy` - information on how Authologic should perform the verification. This field is *optional*. If not specified, the system will use the default value. In our case, we used the `public:sandbox` strategy, which does not perform real verification, but allows you to select the result, which is convenient for implementation and integration tests. You can read more about the test strategy [here](public-sandbox.md).
 
@@ -115,7 +114,7 @@ fragment: `{conversationId}` - if it exists, it will be replaced with the conver
 > at: [https://api.authologic.com/](https://api.authologic.com/) then the `public:sandbox` strategy is not available. 
 > You can omit the `strategy` field to use the default strategy or use another one that we gave you the name of when 
 > determining your needs. As a result, nothing bad will happen, but remember that the production environment requires 
-> real data. The collected data will also be real. icon:smile-o[]
+> real data. The collected data will also be real.
 
 - `query` - it is the query definition that contains the set of information we want to receive.
 - `identity`-  is the name of the product we want to ask for data. `Identity` specifies identity recognition. You will learn about other methods later.
