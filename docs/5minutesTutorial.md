@@ -247,9 +247,9 @@ Assuming that you have finished the process, you should expect following respons
 <!-- theme: info -->
 > #### TIP
 >
-> In practice, checking the conversation status every now and then is not a good idea. Authologic is able to 
+> In practice, checking the conversation status periodically is not a good idea. Authologic is able to 
 > notify your system about the change of data related to the conversation using the `callback` mechanism. There 
-> is a separate document regarding callbacks xref:callback.adoc[document].
+> is a separate document regarding callbacks [document](callback.md).
 
 <!-- theme: info -->
 > #### TIP
@@ -257,6 +257,8 @@ Assuming that you have finished the process, you should expect following respons
 > For purpose of better understanding, you may want to check status of the conversation in various stages of the 
 > process try to check status just after creation of the conversation, and after user has started identity check.
 
-// include::include/pleaseHelp.adoc[]
-
-// xref:index.adoc[Back]
+<!-- theme: info -->
+>
+> Despite our sincere intentions, it is difficult to create perfect technical documentation. 
+> If you have an idea on how to improve this documentation, or you have trouble understanding any section, 
+> please email us at tech-support@authologic.com
