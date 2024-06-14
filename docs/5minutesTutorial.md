@@ -123,3 +123,140 @@ userKey:: specifies the user you want to check. Authologic remembers this field,
 For this tutorial we use very simple set of data, but you probably noticed unusual structure of  an array of arrays,
 find why and more detailed explanation: [here](addon-mandatoryAndOptionalQueries.md),
 full list of available fields: [here](api/userInfoFields.adoc).
+
+The response should look something like this:
+```json
+    {
+        "id":"c12c1adc-3ff0-4d32-b95c-c593135c903e",
+        "userKey":"7dfb9ded-c38f-49ae-95e2-307283a0b1f6",
+        "url":"https://sandbox.authologic.com/c/c12c1adc-3ff0-4d32-b95c-c593135c903e",
+        "status":"CREATED",
+        "result":{
+            "identity":{
+                "status":"IN_PROGRESS",
+                "user":{}
+            }
+        }
+    }
+```
+
+In the above response we got the following information:
+
+- `id` - the conversation id. We will need it when inquiring about its status.
+- `userKey` - ID of the user to be checked, exactly what you entered when creating the conversation.
+- `url` - the address to which the user should be redirected in order to verify the identity.
+- `status` - conversation status. `_CREATED_` marks a new conversation where the user has not yet started the verification process.
+- `result` - conversation result. At the moment we do not have any data, so there appears, within the product for which we asked the status: `_IN_PROGRESS_` and an empty structure with data about the user (`user`)
+
+<!-- theme: info -->
+> #### TIP
+>
+> In the response there may be other fields, e.g. `info`. These fields are described separately, and we shouldn't worry about them now.
+
+## Identity check
+
+The user identity is checked by sending the user to the address returned in the `url` field. 
+So now open your browser and go to the page you got in this parameter. You should see the first screen of 
+the identity checking process. For our sample strategy, it will be a screen where we can enter the 
+data that the verification is to return.
+
+After going through the process, you should be redirected to the `returnUrl` page that you entered when creating the conversation.
+
+## Getting conversation result
+
+Now let's check the conversation status. You should get request on url that was provided in `callbackUrl` field during 
+creating conversation.
+
+```json
+{
+    "id": "f109ad2b-5e3c-4f9d-b2ea-20379e56f101",
+    "created": "2020-12-24T16:00:00.930853456Z",
+    "target": "CONVERSATION",
+    "event": "FINISHED",
+    "payload": {
+        "conversation": {
+            "id":"c12c1adc-3ff0-4d32-b95c-c593135c903e",
+            "userKey":"7dfb9ded-c38f-49ae-95e2-307283a0b1f6",
+            "url":"https://sandbox.authologic.com/c/c12c1adc-3ff0-4d32-b95c-c593135c903e",
+            "status":"FINISHED",
+            "result":{
+                "identity":{
+                    "status":"FINISHED",
+                    "errors": [],
+                    "user":{
+                        "person":{
+                            "name":{
+                                "firstName":"Jan",
+                                "lastName":"Testowy"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+This time the `status` has changed to `FINISHED`, which means the process is complete. At the same time, the `result` 
+structure also contains the `FINISHED` state, which means that all the data was successfully determined. Retrieved
+data appeared in the `user` structure.
+
+<!-- theme: success -->
+> #### Congratulation!!
+>
+> That's it. You managed to use API and get data
+
+## One more thing...
+Authologic uses  `callbackUrl` to send you result of conversation. Regardless of that, if you need to check conversation 
+status (for example during test, for debug purposes) you can ask about its condition at any time, using the method below.
+
+Remember to adapt the conversation id in the address to your case:
+
+```shell
+curl -u my_login "https://sandbox.authologic.com/api/conversations/c12c1adc-3ff0-4d32-b95c-c593135c903e" \
+-H "Accept: application/vnd.authologic.v1.1+json" \
+-H "Content-Type: application/vnd.authologic.v1.1+json"
+```
+
+Assuming that you have finished the process, you should expect following response:
+
+```json
+{
+    "id":"c12c1adc-3ff0-4d32-b95c-c593135c903e",
+    "userKey":"7dfb9ded-c38f-49ae-95e2-307283a0b1f6",
+    "url":"https://sandbox.authologic.com/c/c12c1adc-3ff0-4d32-b95c-c593135c903e",
+    "status":"FINISHED",
+    "result":{
+        "identity":{
+            "status":"FINISHED",
+            "errors": [],
+            "user":{
+                "person":{
+                    "name":{
+                        "firstName":"Jan",
+                        "lastName":"Testowy"
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+<!-- theme: info -->
+> #### TIP
+>
+> In practice, checking the conversation status every now and then is not a good idea. Authologic is able to 
+> notify your system about the change of data related to the conversation using the `callback` mechanism. There 
+> is a separate document regarding callbacks xref:callback.adoc[document].
+
+<!-- theme: info -->
+> #### TIP
+>
+> For purpose of better understanding, you may want to check status of the conversation in various stages of the 
+> process try to check status just after creation of the conversation, and after user has started identity check.
+
+// include::include/pleaseHelp.adoc[]
+
+// xref:index.adoc[Back]
