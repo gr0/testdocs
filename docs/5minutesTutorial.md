@@ -126,18 +126,18 @@ full list of available fields: [here](api/userInfoFields.adoc).
 
 The response should look something like this:
 ```json
-    {
-        "id":"c12c1adc-3ff0-4d32-b95c-c593135c903e",
-        "userKey":"7dfb9ded-c38f-49ae-95e2-307283a0b1f6",
-        "url":"https://sandbox.authologic.com/c/c12c1adc-3ff0-4d32-b95c-c593135c903e",
-        "status":"CREATED",
-        "result":{
-            "identity":{
-                "status":"IN_PROGRESS",
-                "user":{}
-            }
+{
+    "id":"c12c1adc-3ff0-4d32-b95c-c593135c903e",
+    "userKey":"7dfb9ded-c38f-49ae-95e2-307283a0b1f6",
+    "url":"https://sandbox.authologic.com/c/c12c1adc-3ff0-4d32-b95c-c593135c903e",
+    "status":"CREATED",
+    "result":{
+        "identity":{
+            "status":"IN_PROGRESS",
+            "user":{}
         }
     }
+}
 ```
 
 In the above response we got the following information:
