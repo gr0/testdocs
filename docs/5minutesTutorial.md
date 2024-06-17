@@ -81,10 +81,10 @@ public class Main {
     }
 }
 ```
-Of course, instead of `_my_login_` enter your login. You should be prompted for a password - at that point you should 
+Of course, instead of `my_login` enter your login. You should be prompted for a password - at that point you should 
 enter *the API key* (do not confuse it with the password to the customer panel).
 
-For `_my_callback_url_here_`  you could use https://webhook.site/ to generate callback url which will be responsible for 
+For `my_callback_url_here`  you could use https://webhook.site/ to generate callback url which will be responsible for 
 receiving user information from Authologic. Whether you will use webhook.site or other similar tool it is crucial 
 that it will correctly receive http request since *it is required for the process of identification*.
 
