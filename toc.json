@@ -12,6 +12,11 @@
             "items": [
                 {
                     "type": "item",
+                    "title": "Overview",
+                    "uri": "docs/overview.md"
+                },
+                {
+                    "type": "item",
                     "title": "5 Minutes Tutorial",
                     "uri": "docs/5minutesTutorial.md"
                 }
