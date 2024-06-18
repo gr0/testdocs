@@ -1,3 +1,0 @@
-# Swagger UI
-
-TODO

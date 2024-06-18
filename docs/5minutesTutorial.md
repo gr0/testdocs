@@ -17,7 +17,8 @@ You have received three passwords with your username:
 > We use the `curl` tool to show the API operation. 
 > If you have not dealt with it, you can find a short guide on it [here](https://www.baeldung.com/curl-rest).
 > Of course, there is nothing to prevent you from using the swagger tool directly, which you will find at the 
-> link: [here](swagger-ui.md), or any other tool, such as Postman or Insomnia.
+> link: [here](https://authologictest.stoplight.io/docs/testdocs/028e1852f355b-integration-in-5-minutes-basic-information), 
+> or any other tool, such as Postman or Insomnia.
 
 ## Creating a Conversation
 So let's try using the `curl` tool to start a new conversation, which is the identity checking process.
@@ -91,11 +92,13 @@ that it will correctly receive http request since *it is required for the proces
 Authologic requires you to provide the API version number by providing them as part of the expected document types. 
 Therefore, in the query, we used the appropriate `Accept` and `Content-Type` headers, thanks to which the server will be 
 able to choose the appropriate format and API version. We then passed the query content in JSON format using the following:
-userKey:: specifies the user you want to check. Authologic remembers this field, returns its value, but Authologic doesn't use the value of this field. Place there the user ID which is used in your system, it will make it easier for you to associate the conversation with the user. You can also ignore this fields and the Authologic will generate it for you.
+userKey:: specifies the user you want to check. Authologic remembers this field, returns its value, but Authologic doesn't 
+use the value of this field. Place there the user ID which is used in your system, it will make it easier for you to associate 
+the conversation with the user. You can also ignore this fields and the Authologic will generate it for you.
 
 - `returnUrl` - address to which the user will be redirected by Authologic after verifying the identity. It may contain the fragment: `{conversationId}` - if it exists, it will be replaced with the conversation ID.
 - `callbackUrl` - after process is completed, on this url we will send you user information or information that process has failed.
-- `strategy` - information on how Authologic should perform the verification. This field is *optional*. If not specified, the system will use the default value. In our case, we used the `public:sandbox` strategy, which does not perform real verification, but allows you to select the result, which is convenient for implementation and integration tests. You can read more about the test strategy [here](public-sandbox.md).
+- `strategy` - information on how Authologic should perform the verification. This field is *optional*. If not specified, the system will use the default value. In our case, we used the `public:sandbox` strategy, which does not perform real verification, but allows you to select the result, which is convenient for implementation and integration tests. You can read more about the test strategy [here](strategies/public-sandbox.md).
 
 <!-- theme: info -->
 > #### TIP
@@ -145,7 +148,7 @@ In the above response we got the following information:
 - `id` - the conversation id. We will need it when inquiring about its status.
 - `userKey` - ID of the user to be checked, exactly what you entered when creating the conversation.
 - `url` - the address to which the user should be redirected in order to verify the identity.
-- `status` - conversation status. `_CREATED_` marks a new conversation where the user has not yet started the verification process.
+- `status` - conversation status. `CREATED` marks a new conversation where the user has not yet started the verification process.
 - `result` - conversation result. At the moment we do not have any data, so there appears, within the product for which we asked the status: `_IN_PROGRESS_` and an empty structure with data about the user (`user`)
 
 <!-- theme: info -->
