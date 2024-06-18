@@ -9,16 +9,19 @@
             "type": "group",
             "title": "Documentation",
             "uri": "docs/index.md",
+            "slug": "index",
             "items": [
                 {
                     "type": "item",
                     "title": "Overview",
-                    "uri": "docs/overview.md"
+                    "uri": "docs/overview.md",
+                    "slug": "overview"
                 },
                 {
                     "type": "item",
                     "title": "5 Minutes Tutorial",
-                    "uri": "docs/5minutesTutorial.md"
+                    "uri": "docs/5minutesTutorial.md",
+                    "slug": "5-minutes-tutorial"
                 }
             ]
         },
