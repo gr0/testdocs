@@ -1,0 +1,14 @@
+{
+    "collapseTableOfContents": false,
+    "items": [
+        {
+            "type": "divider",
+            "title": "Divider"
+        },
+        {
+            "type": "item",
+            "title": "5 Minutes Tutorial",
+            "uri": "docs/5minutesTutorial.md"
+        }
+    ]
+}
