@@ -135,9 +135,9 @@ The following example may be useful to test the signing algorithm:
 ### Potential problems with the signature
 In case of problems, make sure that:
 
-- you are using a specially designed key signature verification and not e.g. API key 
-- Make sure that the content of the query is not changed by the framework you are using: e.g. JSON is not formatted 
-- Check that the content of the query is treated by you as UTF-8
+- You are using a specially designed key signature verification and not e.g. API key.
+- Make sure that the content of the query is not changed by the framework you are using: e.g. JSON is not formatted.
+- Check that the content of the query is treated by you as UTF-8.
 
 <!-- theme: info -->
 >
