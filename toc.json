@@ -3,12 +3,19 @@
     "items": [
         {
             "type": "divider",
-            "title": "API Documentation"
+            "title": "Authologic Customer API Documentation"
         },
         {
-            "type": "item",
-            "title": "5 Minutes Tutorial",
-            "uri": "docs/5minutesTutorial.md"
+            "type": "group",
+            "title": "Clickable Group",
+            "uri": "docs/index.md",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "5 Minutes Tutorial",
+                    "uri": "docs/5minutesTutorial.md"
+                }
+            ]
         },
         {
             "type": "divider",
