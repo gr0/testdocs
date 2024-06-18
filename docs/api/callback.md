@@ -84,9 +84,9 @@ The verification algorithm is as follows:
 The following example may be useful to test the signing algorithm:
 - Signature key: `dey6TaePhiogi7ohgiek0pho`
 - Timestamp: `1641046369772`
-  -Query content (note the whitespaces): `{ "test": true }`
-  -SHA256 is calculated with the inscription: `1641046369772:{ "test": true }`
-  -generated signature: `fb96c41afe39c6b1cb9377a63405f9f072c1ccf2f04b85fcaeda2c081dcabba6`
+- Query content (note the whitespaces): `{ "test": true }`
+- SHA256 is calculated with the inscription: `1641046369772:{ "test": true }`
+- Generated signature: `fb96c41afe39c6b1cb9377a63405f9f072c1ccf2f04b85fcaeda2c081dcabba6`
 
 ### Potential problems with the signature
 In case of problems, make sure that:
