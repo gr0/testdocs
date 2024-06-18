@@ -7,7 +7,7 @@
         },
         {
             "type": "group",
-            "title": "Clickable Group",
+            "title": "Documentation",
             "uri": "docs/index.md",
             "items": [
                 {
