@@ -46,6 +46,16 @@
                     "title": "Production Launch",
                     "uri": "docs/golive.md",
                     "slug": "production-launch"
+                },
+                {
+                    "type": "divider",
+                    "title": "Products"
+                },
+                {
+                    "type": "item",
+                    "title": "Bank Transactions",
+                    "uri": "docs/product-bankTransactions.md",
+                    "slug": "bank-transactions"
                 }
             ]
         },

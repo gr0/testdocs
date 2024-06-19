@@ -42,7 +42,7 @@ integration can be expanded in various directions. Below you will find chapters 
 
 ### Strategies
 
-#### [Verification strategies](strategies.md) 
+#### [Verification Strategies](strategies.md) 
 In case you want to use several verification methods, e.g. depending on how sensitive the operation your user wants to perform.
 
 ### Products
