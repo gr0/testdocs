@@ -182,6 +182,8 @@ curl -u my_login "https://sandbox.authologic.com/api/conversations/c12c1adc-3ff0
 -H "Content-Type: application/vnd.authologic.v1.1+json"
 ```
 
+An example response of the above command looks as follows:
+
 ```json
 {
     "dateFrom": "2020-09-16T10:44:51.544Z",

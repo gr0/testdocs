@@ -12,50 +12,62 @@
             "slug": "index",
             "items": [
                 {
-                    "type": "item",
-                    "title": "Overview",
-                    "uri": "docs/overview.md",
-                    "slug": "overview"
+                    "type": "group",
+                    "title": "Getting Started",
+                    "uri": "docs/getting-started.md",
+                    "slug": "getting-started",
+                    "items": [
+                        {
+                            "type": "item",
+                            "title": "Overview",
+                            "uri": "docs/overview.md",
+                            "slug": "overview"
+                        },
+                        {
+                            "type": "item",
+                            "title": "5 Minutes Tutorial",
+                            "uri": "docs/5minutesTutorial.md",
+                            "slug": "5-minutes-tutorial"
+                        },
+                        {
+                            "type": "item",
+                            "title": "Conversation Statuses",
+                            "uri": "docs/statuses.md",
+                            "slug": "conversation-statuses"
+                        },
+                        {
+                            "type": "item",
+                            "title": "Implementation Notes",
+                            "uri": "docs/implementation.md",
+                            "slug": "implementation-notes"
+                        },
+                        {
+                            "type": "item",
+                            "title": "Strategy Testing",
+                            "uri": "docs/testing.md",
+                            "slug": "strategy-testing"
+                        },
+                        {
+                            "type": "item",
+                            "title": "Production Launch",
+                            "uri": "docs/golive.md",
+                            "slug": "production-launch"
+                        }
+                    ]
                 },
                 {
-                    "type": "item",
-                    "title": "5 Minutes Tutorial",
-                    "uri": "docs/5minutesTutorial.md",
-                    "slug": "5-minutes-tutorial"
-                },
-                {
-                    "type": "item",
-                    "title": "Conversation Statuses",
-                    "uri": "docs/statuses.md",
-                    "slug": "conversation-statuses"
-                },
-                {
-                    "type": "item",
-                    "title": "Implementation Notes",
-                    "uri": "docs/implementation.md",
-                    "slug": "implementation-notes"
-                },
-                {
-                    "type": "item",
-                    "title": "Strategy Testing",
-                    "uri": "docs/testing.md",
-                    "slug": "strategy-testing"
-                },
-                {
-                    "type": "item",
-                    "title": "Production Launch",
-                    "uri": "docs/golive.md",
-                    "slug": "production-launch"
-                },
-                {
-                    "type": "divider",
-                    "title": "Products"
-                },
-                {
-                    "type": "item",
-                    "title": "Bank Transactions",
-                    "uri": "docs/product-bankTransactions.md",
-                    "slug": "bank-transactions"
+                    "type": "group",
+                    "title": "Products",
+                    "uri": "docs/products.md",
+                    "slug": "products",
+                    "items": [
+                        {
+                            "type": "item",
+                            "title": "Bank Transactions",
+                            "uri": "docs/product-bankTransactions.md",
+                            "slug": "bank-transactions"
+                        }
+                    ]
                 }
             ]
         },
