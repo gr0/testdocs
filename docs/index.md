@@ -63,7 +63,7 @@ User verification for presence on AML lists.
 
 You may also be interested in [AML change monitoring](product-aml-subscription.md).
 
-### Additional options and extensions
+### Additional Options and Extensions
 
 #### [Embedding the process within your website](websdk.md)
 How to embed the verification process on your own website.
