@@ -116,7 +116,7 @@ In order to obtain differentiated results, in the field `hints.known.person.name
 - `Kwaśniewski` - `SIP`
 - `Biden` - `PEP`
 - `Trzaskowski` - `ADVERSE MEDIA`
-- `Kowalski` - czysta lista AML
+- `Kowalski` - empty AML list
 
 If you enter a name that is not on the list, the data associated with the name `Putin` will appear in the results.
 
