@@ -27,7 +27,7 @@ Take a look at the example conversation below.
 You may notice that there are two different statuses in the response: the `status` field and 
 the `result.identity.status` field. We'll describe how they differ below.
 
-## The `status` field
+## The status field
 
 The `status` field specifies at *what point in the life cycle* the conversation is. It may be just started, 
 it may just verify the user or quit running. So it can take the following values:
@@ -59,7 +59,7 @@ graph
 ```
     
 
-## The `result.<produkt>.status` field
+## The result.<product>.status field
 
 For `result.identity.status`, this field specifies the result of the identity verification. More generally, Authologic provides for more fields determining the status of specific products. The product is the identity verification (`result.identity.status`) but also e.g. getting user transactions (`result.bankTransactions.status`).
 
