@@ -28,6 +28,12 @@
                     "title": "Conversation Statuses",
                     "uri": "docs/statuses.md",
                     "slug": "conversation-statuses"
+                },
+                {
+                    "type": "item",
+                    "title": "Implementation Notes",
+                    "uri": "docs/implementation.md",
+                    "slug": "implementation-notes"
                 }
             ]
         },
