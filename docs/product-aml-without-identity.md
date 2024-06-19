@@ -111,11 +111,11 @@ We have prepared test data sets on a `sandbox` environment.
 
 In order to obtain differentiated results, in the field `hints.known.person.name.lastName`, one of the following names should be given:
 
-- `Putin` - "PEP", "SANCTIONS", "SIP", "ADVERSE_MEDIA","OTHER"
-- `Shoygu` - "SANCTIONS"
-- `Kwaśniewski` - "SIP"
-- `Biden` - "PEP"
-- `Trzaskowski` - "ADVERSE MEDIA"
+- `Putin` - `PEP`, `SANCTIONS`, `SIP`, `ADVERSE_MEDIA`, `OTHER`
+- `Shoygu` - `SANCTIONS`
+- `Kwaśniewski` - `SIP`
+- `Biden` - `PEP`
+- `Trzaskowski` - `ADVERSE MEDIA`
 - `Kowalski` - czysta lista AML
 
 If you enter a name that is not on the list, the data associated with the name `Putin` will appear in the results.
