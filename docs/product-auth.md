@@ -73,7 +73,7 @@ The response always contains the following section:
 A `Token` is a unique key associated with a user and authentication method. Each time this user authenticates using 
 this method, this token will be returned.
 
-<!-- theme: warning -->
+<!-- theme: info -->
 > #### TIP
 >
 > A user can have multiple tokens if you allow them to use different authentication methods.
@@ -97,7 +97,7 @@ A `Token` is a unique key associated with a user and authentication method. `Cha
 the user to be verified. Each time this user authenticates using this method, the appropriate `challenge` 
 must be sent - after successful authentication, the above token will be returned.
 
-<!-- theme: warning -->
+<!-- theme: info -->
 > #### TIP
 >
 > A user can have multiple challenge / token pairs if you allow them to use different authentication methods.
