@@ -22,6 +22,12 @@
                     "title": "5 Minutes Tutorial",
                     "uri": "docs/5minutesTutorial.md",
                     "slug": "5-minutes-tutorial"
+                },
+                {
+                    "type": "item",
+                    "title": "Conversation Statuses",
+                    "uri": "docs/5minutesTutorial.md",
+                    "slug": "conversation-statuses"
                 }
             ]
         },
