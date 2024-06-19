@@ -64,6 +64,12 @@
                     "title": "Product - User Authentication",
                     "uri": "docs/product-auth.md",
                     "slug": "product-user-authentication"
+                },
+                {
+                    "type": "item",
+                    "title": "Product - AML Verification",
+                    "uri": "docs/product-aml.md",
+                    "slug": "product-aml-verification"
                 }
             ]
         },
