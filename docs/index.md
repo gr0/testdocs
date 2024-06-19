@@ -58,7 +58,7 @@ Compare the verification data with the submitted data.
 #### [User authentication](product-auth.md) 
 A product that allows you to build mechanisms for logging into your system.
 
-#### [AML Verification](product-aml) 
+#### [AML Verification](product-aml.md) 
 User verification for presence on AML lists.
 
 You may also be interested in [AML change monitoring](product-aml-subscription.md).
