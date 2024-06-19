@@ -26,7 +26,7 @@
                 {
                     "type": "item",
                     "title": "Conversation Statuses",
-                    "uri": "docs/5minutesTutorial.md",
+                    "uri": "docs/statuses.md",
                     "slug": "conversation-statuses"
                 }
             ]
