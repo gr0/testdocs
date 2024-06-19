@@ -30,10 +30,10 @@ How Authologic notifies you of the result of a verification.
 #### [Implementation Notes](implementation.md)
 What you should pay attention to while developing and how we will make changes to the API in the future.
 
-#### [Strategy testing](testing.md)
+#### [Strategy Testing](testing.md)
 Information on testing the strategy
 
-#### [Production launch](golive.md)
+#### [Production Launch](golive.md)
 How to make the integration available to your users.
 
 ## What's next?
