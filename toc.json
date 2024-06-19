@@ -49,9 +49,21 @@
                 },
                 {
                     "type": "item",
-                    "title": "Bank Transactions",
+                    "title": "Product - Bank Transactions",
                     "uri": "docs/product-bankTransactions.md",
-                    "slug": "bank-transactions"
+                    "slug": "product-bank-transactions"
+                },
+                {
+                    "type": "item",
+                    "title": "Product - Data Verification",
+                    "uri": "docs/product-verify.md",
+                    "slug": "product-data-verification"
+                },
+                {
+                    "type": "item",
+                    "title": "Product - User Authentication",
+                    "uri": "docs/product-auth.md",
+                    "slug": "product-user-authentication"
                 }
             ]
         },
