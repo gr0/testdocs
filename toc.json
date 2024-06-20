@@ -81,25 +81,25 @@
             "items": [
                 {
                     "type": "item",
-                    "title": "WebSDK - JavaScript",
+                    "title": "JavaScript",
                     "uri": "docs/websdk/js.md",
                     "slug": "websdk-javascript"
                 },
                 {
                     "type": "item",
-                    "title": "WebSDK - React",
+                    "title": "React",
                     "uri": "docs/websdk/react.md",
                     "slug": "websdk-react"
                 },
                 {
                     "type": "item",
-                    "title": "WebSDK - VueJS",
+                    "title": "VueJS",
                     "uri": "docs/websdk/vuejs.md",
                     "slug": "websdk-vuejs"
                 },
                 {
                     "type": "item",
-                    "title": "WebSDK - Angular",
+                    "title": "Angular",
                     "uri": "docs/websdk/angular.md",
                     "slug": "websdk-angular"
                 }
