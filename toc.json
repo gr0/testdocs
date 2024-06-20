@@ -74,6 +74,38 @@
             ]
         },
         {
+            "type": "group",
+            "title": "WebSDK",
+            "uri": "docs/websdk.md",
+            "slug": "websdk",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "WebSDK - JavaScript",
+                    "uri": "docs/websdk/js.md",
+                    "slug": "websdk-javascript"
+                },
+                {
+                    "type": "item",
+                    "title": "WebSDK - React",
+                    "uri": "docs/websdk/react.md",
+                    "slug": "websdk-react"
+                },
+                {
+                    "type": "item",
+                    "title": "WebSDK - VueJS",
+                    "uri": "docs/websdk/vuejs.md",
+                    "slug": "websdk-vuejs"
+                },
+                {
+                    "type": "item",
+                    "title": "WebSDK - Angular",
+                    "uri": "docs/websdk/angular.md",
+                    "slug": "websdk-angular"
+                }
+            ]
+        },
+        {
             "type": "divider",
             "title": "API"
         },

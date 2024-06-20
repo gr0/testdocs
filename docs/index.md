@@ -36,7 +36,7 @@ Information on testing the strategy
 #### [Production Launch](golive.md)
 How to make the integration available to your users.
 
-## What's next?
+## What's Next?
 The _basic information_ should be sufficient to do basic integration. However, depending on your needs, 
 integration can be expanded in various directions. Below you will find chapters that should cover specific topics.
 
@@ -65,7 +65,7 @@ You may also be interested in [AML change monitoring](product-aml-subscription.m
 
 ### Additional Options and Extensions
 
-#### [Embedding the process within your website](websdk.md)
+#### [Embedding the Process Within your Website](websdk.md)
 How to embed the verification process on your own website.
 
 #### [Downloading captured photos and other verification data](addon-metadata.md) 
