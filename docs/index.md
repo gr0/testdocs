@@ -68,19 +68,19 @@ You may also be interested in [AML change monitoring](product-aml-subscription.m
 #### [Embedding the Process Within your Website](websdk.md)
 How to embed the verification process on your own website.
 
-#### [Downloading captured photos and other verification data](addon-metadata.md) 
+#### [Downloading Captured Photos and Other Verification Data](addon-metadata.md)
 How to access original scans of a document and user's photos.
 
-#### [Additional information about the verification process](addon-info.md)
+#### [Additional Information about the Verification Process](addon-info.md)
 How to check which method was selected by the user.
 
-#### [Additional information about verification failure reasons](addon-errors.md)
+#### [Additional Information about Verification Failure Reasons](addon-errors.md)
 How to check the reason for refusal to verify and detailed information about its progress.
 
-#### [Additional validations of the verification process](addon-checks.md)
+#### [Additional Validations of the Verification Process](addon-checks.md)
 How to check the additional validations performed on the user data.
 
-#### [Possibility to disable unfinished conversations](addon-expire.md)
+#### [Possibility to Disable Unfinished Conversations](addon-expire.md)
 How to block the ability to pass ID verification for a specific conversation.
 
 ### FAQ: Frequently Asked Questions

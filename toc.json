@@ -106,6 +106,44 @@
             ]
         },
         {
+            "type": "group",
+            "title": "Additional Options and Extensions",
+            "uri": "docs/addon.md",
+            "slug": "addon",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "Metadata",
+                    "uri": "docs/addon-metadata.md",
+                    "slug": "addon-metadata"
+                },
+                {
+                    "type": "item",
+                    "title": "Additional Information",
+                    "uri": "docs/addon-info.md",
+                    "slug": "addon-info"
+                },
+                {
+                    "type": "item",
+                    "title": "Errors",
+                    "uri": "docs/addon-errors.md",
+                    "slug": "addon-errors"
+                },
+                {
+                    "type": "item",
+                    "title": "Validations",
+                    "uri": "docs/addon-checks.md",
+                    "slug": "addon-checks"
+                },
+                {
+                    "type": "item",
+                    "title": "Conversation Expiration",
+                    "uri": "docs/addon-expire.md",
+                    "slug": "addon-expire"
+                }
+            ]
+        },
+        {
             "type": "divider",
             "title": "API"
         },
