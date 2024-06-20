@@ -10,7 +10,7 @@ title: "Library Installation"
 npm i @authologic/websdk
 ```
 
-and connecting it in a similar way as in the document described [here](websdk/js.md).
+and connecting it in a similar way as in the document described [here](js.md).
 
 <!-- theme: info -->
 >
