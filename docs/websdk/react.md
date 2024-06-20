@@ -1,6 +1,6 @@
 # Integration Within React Applications
 
-If you are building your application using https://react.dev/[React], you must first add the Authologic library to your dependencies:
+If you are building your application using [React](https://react.dev/), you must first add the Authologic library to your dependencies:
 
 <!--
 title: "Library installation"
