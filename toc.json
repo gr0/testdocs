@@ -46,28 +46,36 @@
                     "title": "Production Launch",
                     "uri": "docs/golive.md",
                     "slug": "production-launch"
-                },
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Products",
+            "uri": "docs/products.md",
+            "slug": "products",
+            "items": [
                 {
                     "type": "item",
-                    "title": "Product - Bank Transactions",
+                    "title": "Bank Transactions",
                     "uri": "docs/product-bankTransactions.md",
                     "slug": "product-bank-transactions"
                 },
                 {
                     "type": "item",
-                    "title": "Product - Data Verification",
+                    "title": "Data Verification",
                     "uri": "docs/product-verify.md",
                     "slug": "product-data-verification"
                 },
                 {
                     "type": "item",
-                    "title": "Product - User Authentication",
+                    "title": "User Authentication",
                     "uri": "docs/product-auth.md",
                     "slug": "product-user-authentication"
                 },
                 {
                     "type": "item",
-                    "title": "Product - AML Verification",
+                    "title": "AML Verification",
                     "uri": "docs/product-aml.md",
                     "slug": "product-aml-verification"
                 }
