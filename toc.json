@@ -152,6 +152,61 @@
             ]
         },
         {
+            "type": "group",
+            "title": "Frequently Asked Questions",
+            "uri": "docs/faq.md",
+            "slug": "faq",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "Foreign Translation and Support",
+                    "uri": "docs/i18n.md",
+                    "slug": "faq-foreign-translation-and-support"
+                },
+                {
+                    "type": "item",
+                    "title": "Mandatory and Optional Fields",
+                    "uri": "docs/addon-mandatoryAndOptionalQueries.md",
+                    "slug": "addon-mandatory-and-optional-queries"
+                },
+                {
+                    "type": "item",
+                    "title": "Hints Usage",
+                    "uri": "docs/addon-hints.md",
+                    "slug": "addon-hints"
+                },
+                {
+                    "type": "item",
+                    "title": "Changing Appearance",
+                    "uri": "docs/customLayout.md",
+                    "slug": "addon-custom-layout"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Development",
+            "uri": "docs/development.md",
+            "slug": "development",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "Foreign Translation and Support",
+                    "uri": "docs/i18n.md",
+                    "slug": "faq-foreign-translation-and-support"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Detailed API Description",
+            "uri": "docs/detailed-api-description.md",
+            "slug": "detailed-api-description",
+            "items": [
+
+            ]
+        },
+        {
             "type": "divider",
             "title": "API"
         },

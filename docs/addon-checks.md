@@ -5,7 +5,6 @@ It might be the useful information in case the user data is not valid.
 
 Let's look at an example ended conversation:
 
-[source, json, indent = 0, subs=attributes+]
 <!--
 title: "An example of a conversation snippet with identity validations performed on user data."
 -->

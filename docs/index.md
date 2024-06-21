@@ -86,23 +86,23 @@ How to block the ability to pass ID verification for a specific conversation.
 ### FAQ: Frequently Asked Questions
 
 #### [Foreign Translation and Support](i18n.md)
-How to handle the multilingual interface
+How to handle the multilingual interface.
 
-#### [Use of mandatory and optional fields](addon-mandatoryAndOptionalQueries.md)
-When to use `query.requireOneOf` and `query.optional`
+#### [Use of Mandatory and Optional Fields](addon-mandatoryAndOptionalQueries.md)
+When to use `query.requireOneOf` and `query.optional`.
 
-#### [Use hint](addon-hints.md)
-Define `hints` fields
+#### [Using Hints](addon-hints.md)
+Define `hints` fields.
 
-#### [Change appearance](customLayout.md)
-Options available for customizing the user interface
+#### [Changing Appearance](customLayout.md)
+Options available for customizing the user interface.
 
 ### Development
 
-#### [Versions and unsupported features](deprecations.md)
+#### [Versions and Unsupported Features](deprecations.md)
 Information about functionalities that will be removed and may require updating your system.
 
-## Detailed API description
+## Detailed API Description
 For people who prefer to have an encyclopedic overview of API capabilities in one place.
 
 ### Identity Verification Process
@@ -121,18 +121,19 @@ For people who prefer to have an encyclopedic overview of API capabilities in on
 
 - [Downloading the AML verification data](api/GET_conversations_ID_aml.md)
 
-### Additional conversations’ data
+### Additional Conversations’ data
 
 - [Downloading conversation data files](api/GET_conversations_ID_identity_metadata_media_ID.md)
 
-### Advanced methods
+### Advanced Methods
 
 - [Turning off the conversation](api/DELETE_conversations_ID.md)
 
-### Advanced personalization
+### Advanced Personalization
 
 - [Get information about the current page to be displayed](api/GET_conversations_ID_page_current.md)
 - [Upload collected data and retrieve next page information](api/POST_conversations_ID_page_ID.md)
+
 
 <!-- theme: info -->
 >
