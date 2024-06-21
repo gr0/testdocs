@@ -197,15 +197,7 @@
                 }
             ]
         },
-        {
-            "type": "group",
-            "title": "Detailed API Description",
-            "uri": "docs/detailed-api-description.md",
-            "slug": "detailed-api-description",
-            "items": [
-
-            ]
-        },
+        
         {
             "type": "divider",
             "title": "API"
