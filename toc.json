@@ -191,13 +191,13 @@
             "items": [
                 {
                     "type": "item",
-                    "title": "Foreign Translation and Support",
-                    "uri": "docs/i18n.md",
-                    "slug": "faq-foreign-translation-and-support"
+                    "title": "Versions and Unsupported Features",
+                    "uri": "docs/deprecations.md",
+                    "slug": "development-deprecations"
                 }
             ]
         },
-        
+
         {
             "type": "divider",
             "title": "API"
