@@ -237,7 +237,7 @@
                     "type": "item",
                     "title": "Bank Transactions - Download Transaction Stats",
                     "uri": "docs/api/GET_conversations_ID_bankTransactions_accounts.md",
-                    "slug": "bank-transactions-download-account-list"
+                    "slug": "bank-transactions-download-transaction-list"
                 }
             ]
         },
