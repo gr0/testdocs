@@ -262,6 +262,12 @@
                     "title": "Current Page Information",
                     "uri": "docs/api/GET_conversations_ID_page_current.md",
                     "slug": "current-page-information"
+                },
+                {
+                    "type": "item",
+                    "title": "Upload Collected Data and Retrieve Next Page Information",
+                    "uri": "docs/api/POST_conversations_ID_page_ID.md",
+                    "slug": "upload-collected-data-and-retrieve-next-page-information"
                 }
             ]
         },
