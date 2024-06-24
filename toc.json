@@ -205,9 +205,21 @@
             "items": [
                 {
                     "type": "item",
-                    "title": "Versions and Unsupported Features",
-                    "uri": "docs/deprecations.md",
-                    "slug": "development-deprecations"
+                    "title": "Create Conversation",
+                    "uri": "docs/api/POST_conversations.md",
+                    "slug": "api-create-conversation"
+                },
+                {
+                    "type": "item",
+                    "title": "Get Conversation State",
+                    "uri": "docs/api/GET_conversations_ID.md",
+                    "slug": "api-get-conversation-state"
+                },
+                {
+                    "type": "item",
+                    "title": "Callback Mechanism",
+                    "uri": "docs/api/callback.md",
+                    "slug": "api-callback-mechanism"
                 }
             ]
         },
