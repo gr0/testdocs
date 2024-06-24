@@ -244,6 +244,12 @@
                     "title": "AML - Download AML Verification Data",
                     "uri": "docs/api/GET_conversations_ID_aml.md",
                     "slug": "aml-download-aml-verification-data"
+                },
+                {
+                    "type": "item",
+                    "title": "Download Conversation Data Files",
+                    "uri": "docs/api/GET_conversations_ID_identity_metadata_media_ID.md",
+                    "slug": "download-conversation-data-files"
                 }
             ]
         },
