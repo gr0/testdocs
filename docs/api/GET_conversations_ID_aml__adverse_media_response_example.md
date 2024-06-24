@@ -1,1 +1,84 @@
-TODO
+#### ADVERSE_MEDIA list response example
+
+
+<!--
+title: "Example of the response with AML verification data"
+-->
+```json
+{
+   "more":false,
+   "items":[
+      {
+         "date":"2020-04-23",
+         "url":"http://www.themoscowtimes.com/print/article/bank-rossiya-emerges-from-shadows/368844.html",
+         "categories":[
+            "PEP"
+         ]
+      },
+      {
+         "date":"2014-03-27",
+         "url":"http://путин.президент.рф/%D0%B1%D0%B8%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F",
+         "categories":[
+            "PEP",
+            "ID/V"
+         ]
+      },
+      {
+         "originalUrl":"https://secure.c6-intelligence.com/c6images/ari0202017/A7JElyvSi.pdf",
+         "date":"2020-04-23",
+         "url":"http://kremlin.ru/structure/security-council/members",
+         "categories":[
+            "PEP"
+         ]
+      },
+      {
+         "date":"2020-04-23",
+         "url":"https://www.pravdareport.com/russia/104931-putin_kabaeva/",
+         "categories":[
+            "PEP"
+         ]
+      },
+      {
+         "date":"2016-05-16",
+         "url":"http://www.ceo.spb.ru/eng/capital/index.shtml",
+         "categories":[
+            "PEP",
+            "ID/V"
+         ]
+      },
+      {
+         "originalUrl":"https://secure.c6-intelligence.com/c6images/ari0202209/nXRVBCDotZ_JdP4emLx-0.pdf",
+         "date":"2022-02-27",
+         "url":"https://www.legislation.gov.au/Details/F2022L00194",
+         "categories":[
+            "Sanction"
+         ]
+      },
+      {
+         "date":"2016-05-14",
+         "url":"http://www.cdi.org/russia/johnson/7187-11.cfm",
+         "categories":[
+            "PEP",
+            "Corporate/Business"
+         ]
+      },
+      {
+         "originalUrl":"https://secure.c6-intelligence.com/c6images/ari0202017/HSJTMkcaS.pdf",
+         "date":"2020-04-23",
+         "url":"http://kremlin.ru/structure/president/presidents",
+         "categories":[
+            "PEP",
+            "ID/V"
+         ]
+      },
+      {
+         "originalUrl":"https://secure.c6-intelligence.com/c6images/ari0202209/V_fQ8QqlTl3SdcJFlJIk4.pdf",
+         "date":"2022-03-01",
+         "url":"https://webgate.ec.europa.eu/fsd/fsf/public/files/pdfFullSanctionsList/content",
+         "categories":[
+            "ID/V"
+         ]
+      }
+   ]
+}
+```

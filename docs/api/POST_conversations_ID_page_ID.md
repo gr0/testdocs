@@ -7,7 +7,15 @@
 Provides data collected from the user and then retrieves information about the current page, which should be displayed to the user.
 
 ## Query Example
-include::_POST_conversations_ID_page_ID__request_example.adoc[]
+<!--
+title: "Example of data format when sending user data"
+-->
+```json
+{
+    "consent": true,
+    "phone": "+48123123123"
+}
+```
 
 ## Description of Query Parameters 
 The parameters passed to the method depend on the previously displayed page definition and the `next.args` field.

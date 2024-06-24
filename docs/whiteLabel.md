@@ -141,7 +141,16 @@ the header `X-User-IP` with the IP address of the user to whom the page will be 
 ` Content-Type` and `Authorization` headers should also be set in the same way as for other API methods. 
 The content of the query contains a map of parameter values, for example:
 
-include::api/_POST_conversations_ID_page_ID__request_example.adoc[]
+<!--
+title: "Example of data format when sending user data"
+-->
+```json
+{
+    "consent": true,
+    "phone": "+48123123123"
+}
+
+```
 
 ## Multi-step verifications
 
