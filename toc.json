@@ -237,7 +237,13 @@
                     "type": "item",
                     "title": "Bank Transactions - Download Transaction Stats",
                     "uri": "docs/api/GET_conversations_ID_bankTransactions_accounts.md",
-                    "slug": "bank-transactions-download-transaction-list"
+                    "slug": "bank-transactions-download-transaction-stats"
+                },
+                {
+                    "type": "item",
+                    "title": "AML - Download AML Verification Data",
+                    "uri": "docs/api/GET_conversations_ID_aml.md",
+                    "slug": "aml-download-aml-verification-data"
                 }
             ]
         },
