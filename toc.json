@@ -197,7 +197,20 @@
                 }
             ]
         },
-
+        {
+            "type": "group",
+            "title": "Detailed API Description",
+            "uri": "docs/detailed.md",
+            "slug": "detailed-api-description",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "Versions and Unsupported Features",
+                    "uri": "docs/deprecations.md",
+                    "slug": "development-deprecations"
+                }
+            ]
+        },
         {
             "type": "divider",
             "title": "API"
