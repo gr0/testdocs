@@ -62,7 +62,7 @@ Detailed description of returned fields:
 | status | PENDING | Status of a given transaction at the time of downloading information from the bank. Allowed values: `BOOKED` - posted transaction, `PENDING` - transaction in progress, `SCHEDULED` - future transaction. Scheduled transactions appear when the `flags` field with the value` INCLUDE_SCHEDULED` was specified when creating the conversation. |
 | bank | BREXPLPW | Bank where the transaction was performed. The value identifies the bank as the SWIFT / BIC code. |
 | accountId | PL68249000050000400075212326 | Account number where transaction was registered. |
-| type | DEBIT | Type of transaction. Available values: DEBIT (account debit) and CREDIT (account credit) |
+| type | DEBIT | Type of transaction. Available values: `DEBIT` (account debit) and `CREDIT` (account credit) |
 | amount | 1000 | Value of the transaction in a currency unit, e.g. in grosze. |
 | currency | PLN | type of currency |
 | title | Account top-up | Transaction title |
