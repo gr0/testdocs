@@ -205,21 +205,33 @@
             "items": [
                 {
                     "type": "item",
-                    "title": "Create Conversation",
+                    "title": "Identity Verification - Create Conversation",
                     "uri": "docs/api/POST_conversations.md",
-                    "slug": "api-create-conversation"
+                    "slug": "identity-verification-api-create-conversation"
                 },
                 {
                     "type": "item",
-                    "title": "Get Conversation State",
+                    "title": "Identity Verification - Get Conversation State",
                     "uri": "docs/api/GET_conversations_ID.md",
-                    "slug": "api-get-conversation-state"
+                    "slug": "identity-verification-api-get-conversation-state"
                 },
                 {
                     "type": "item",
-                    "title": "Callback Mechanism",
+                    "title": "Identity Verification - Callback Mechanism",
                     "uri": "docs/api/callback.md",
-                    "slug": "api-callback-mechanism"
+                    "slug": "identity-verification-api-callback-mechanism"
+                },
+                {
+                    "type": "item",
+                    "title": "Bank Transactions - Download Transactions List",
+                    "uri": "docs/api/GET_conversations_ID_bankTransactions.md",
+                    "slug": "bank-transactions-download-transactions-list"
+                },
+                {
+                    "type": "item",
+                    "title": "Bank Transactions - Download Account List",
+                    "uri": "docs/api/GET_conversations_ID_bankTransactions_accounts.md",
+                    "slug": "bank-transactions-download-account-list"
                 }
             ]
         },

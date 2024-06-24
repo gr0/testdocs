@@ -113,8 +113,8 @@ For people who prefer to have an encyclopedic overview of API capabilities in on
 
 ### Bank Transactions
 
-- [Downloading the transaction list](api/GET_conversations_ID_bankTransactions.md)
-- [Downloading the account list](api/GET_conversations_ID_bankTransactions_accounts.md)
+- [Downloading the Transaction List](api/GET_conversations_ID_bankTransactions.md)
+- [Downloading the Account List](api/GET_conversations_ID_bankTransactions_accounts.md)
 - [Downloading the transaction stats](api/GET_conversations_ID_bankTransactions_stats.md)
 
 ### AML
